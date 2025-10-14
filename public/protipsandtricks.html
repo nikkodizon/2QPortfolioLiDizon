@@ -9,7 +9,7 @@
     <title>A Guide to Valorant Roles</title>
     
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="./asset/------" sizes="16x16" type="image/jpg">
+        <link rel = "icon" href="./assets/Screenshot 2025-10-14 111512.png" sizes="16x16" type = "image/jpg">
     <script src="script.js" defer></script>
 
     <style>
@@ -18,16 +18,41 @@
             color: #ff4655;
             font-family: Arial, sans-serif;
             display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh; /* Full height */
+            justify-content: center; 
+            align-items: flex-start;  
+            min-height: 100vh;       
             margin: 0;
+            text-align: center;
+            overflow-y: auto;         
+            padding-top: 40px;      
+        }
+
+        main {
+            max-width: 800px; 
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 40px;
+            color: #ffffff;
+        }
+
+        th, td {
+            border: 1px solid #ff4655;
+            padding: 12px;
             text-align: center;
         }
 
-        header {
-            max-width: 800px; /* To prevent the text from stretching too wide */
-            padding: 20px;
+        th {
+            background-color: #ff4655;
+            color: rgb(28, 30, 31);
+            font-size: 1.2em;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgb(45, 47, 48);
         }
 
         a {
@@ -38,24 +63,47 @@
         a:hover {
             text-decoration: underline;
         }
-
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        nav li {
-            margin: 5px 0;
-        }
     </style>
 </head>
 
 <body>
-    <header>
+    <main>
+        <h1>VALORANT</h1>
         <h1>Pro Tips and Tricks for Controller</h1>
-        <h2>1. Text</h2>
-        <h2>2. Text</h2>
-        <h2>3. Text</h2>
-    </header>
+
+        <h2>1. Smoke with purpose and don't panic!</h2>
+        <h3>Don’t just drop smokes anywhere. You have to think about what you want to block or protect. Cover enemy sightlines, not just entrances.</h3>
+
+        <h2>2. Time your smokes wisely</h2>
+        <h3>Use smokes to control the pace of the round. Early smokes can waste time if enemies just wait them out.</h3>
+        <h3>Instead, delay your smokes to stop pushes mid-round or refresh them during a plant or retake. Good timing separates decent controllers from great ones.</h3>
+
+        <h2>3. Communicate and plan with your team</h2>
+        <h3>Always ask your teammates where they want smokes and when they’ll push. Controllers are most effective when coordinating with duelists and initiators.</h3>
+
+        <h2>Pros and Cons of Playing Controller as a Beginner</h2>
+        <table>
+            <tr>
+                <th>Pros</th>
+                <th>Cons</th>
+            </tr>
+            <tr>
+                <td>Encourages learning teamwork and communication early on.</td>
+                <td>Requires good map knowledge to use smokes effectively.</td>
+            </tr>
+            <tr>
+                <td>Simple abilities that help control fights and support teammates.</td>
+                <td>Not as flashy or kill-heavy as Duelists.</td>
+            </tr>
+            <tr>
+                <td>Teaches game sense and strategy rather than raw aim.</td>
+                <td>Can be blamed by teammates if smokes are misplaced or mistimed.</td>
+            </tr>
+            <tr>
+                <td>Useful in every match</td>
+                <td>Less forgiving for mistakes when covering key sightlines.</td>
+            </tr>
+        </table>
+    </main>
 </body>
 </html>
