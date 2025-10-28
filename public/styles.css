@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(28, 30, 31);
+    color: #ff4655;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;  
+    min-height: 100vh;       
+    margin: 0;
+    text-align: center;
+    overflow-y: auto;         
+    padding-top: 40px;      
+}
+
+header {
+    max-width: 800px; 
+    padding: 20px;
+}
+
+a {
+    color: #ff4655;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 5px 0;
+}
